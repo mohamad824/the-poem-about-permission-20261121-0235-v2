@@ -1,18 +1,15 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const poem = [
-  "\"Give me your password,\" I said.",
-  "She told me the four numbers.",
-  "The phone opened in my hand —",
-  "her messages, her photos, unlocked.",
-  "",
-  "I didn't look. I set it down",
-  "face-down on the table.",
-  "The screen went dark.",
-  "My hands stayed empty.",
-].join("\n");
+const poem = `"You want my password?"
+"Four digits. Take it."
+The phone lies open on the table,
+messages, photos, all of it mine.
+I could read every word.
+I don't. My thumb hovers, then stills,
+the screen waits, lit and unopened,
+my hand stays in my lap.`;
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "entry.txt"), poem + "\n", "utf8");
+writeFileSync(join(outDir, "entry.txt"), poem, "utf8");

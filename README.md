@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/mohamad824/the-poem-about-permission-20261121-0235-v2/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
 [![reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/mohamad824/the-poem-about-permission-20261121-0235-v2/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
 
-A speaker asks for a phone password, is given it, and chooses not to look at what it opens.
+A short poem about being handed someone's phone password and choosing not to look at what it unlocks.
 
 ## Run it
 
